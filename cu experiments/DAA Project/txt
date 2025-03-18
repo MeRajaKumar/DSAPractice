@@ -1,0 +1,15 @@
+gps-navigation-system/
+│
+├── public/                # Frontend Files
+│   ├── index.html         # Main HTML file for the web app
+│   ├── style.css          # CSS file for styling the web app
+│   └── app.js             # JavaScript file for Google Maps and logic
+│
+├── server/                # Backend Folder (Optional for Dijkstra or additional processing)
+│   └── server.js          # Node.js server file (backend logic)
+│
+├── node_modules/          # Dependencies installed via npm (only if using Node.js backend)
+│
+├── package.json           # Node.js package file (only if using Node.js backend)
+├── .gitignore             # To ignore node_modules, logs, and sensitive data like API keys
+└── README.md  
