@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple GPS Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple GPS Navigation</h1>
+        
+        <div class="controls">
+            <select id="from">
+                <option value="">Select starting point</option>
+            </select>
+            
+            <select id="to">
+                <option value="">Select destination</option>
+            </select>
+            
+            <button id="find-route">Find Route</button>
+        </div>
+        
+        <div id="map"></div>
+        
+        <div id="route-info"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
